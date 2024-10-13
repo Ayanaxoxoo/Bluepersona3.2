@@ -1,0 +1,44 @@
+
+.circle{
+    border:2px solid black;
+    margin-right: 30px;
+    display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height:270px;
+  padding-top: 10%;
+  border-radius: 90%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 200;
+  background-image: radial-gradient(#7a9adf,#939cbb);
+  border-color: #566585;
+  
+}
+#circle {
+  animation: pulse 3s infinite ease-in-out alternate;
+}
+@keyframes pulse {
+  from { transform: scale(0.8); }
+  to { transform: scale(1.0); }
+}
+.circletext{
+    text-align: center;
+    font-size: 180%;
+}
+
+#entp{
+  visibility: hidden 
+}
+
+#character{
+  position: abolute;
+  width: 100%;
+  height: 500px;
+  pointer-events: none;
+}
+
+#ENTP_heading{
+  text-align: center;
+  margin-bottom: 5%
+}
